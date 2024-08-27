@@ -1,0 +1,47 @@
+
+h1{color:brown;
+
+    text-align: center;
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ h2{
+     color: navy;
+     
+     
+     text-align: center
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ body{background-color:lightgray;}
+ 
+ 
+ div{
+  
+    width: 500px;
+    height: 500px;
+    border: 1px  silver ;
+    background-image:url(ad.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: photo;
+    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes photo{
+    10%{background-image: url(as.jpg);}
+    20%{background-image: url(jp.jpg);}
+    50%{background-image: url(sd.jpg);}
+    70%{background-image: url(st.jpg);}
+    90%{background-image: url(ss.jpg);}
